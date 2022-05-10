@@ -9,6 +9,7 @@
 - Pictures for Homepage
 - Font Style for Home page (canva font)
 - Buy Domain (Ask Madhu to buy GSP) 
+- Favicon
 
 ## Completed Tasks[Frontend]
 - Login/Signup page

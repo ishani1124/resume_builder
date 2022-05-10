@@ -89,6 +89,10 @@ document.getElementById("objectiveT").innerHTML = document.getElementById("objec
  }
  document.getElementById("eqT").innerHTML = str1;
 
+ document.getElementById("cv-form").style.display = 'none';
+ document.getElementById("cv-template").style.display = 'block';
+
+
 //Setting Image
 let file = document.getElementById("imgField").files[0];
 console.log(file);
@@ -101,8 +105,6 @@ reader.onloadend = function (){
 document.getElementById("imgTemplate").src = reader.result;
 };
 
-document.getElementById("cv-form").style.display = 'none';
-document.getElementById('cv-template').style.display = 'block';
 
 }
 

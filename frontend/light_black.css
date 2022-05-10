@@ -5,6 +5,9 @@
 /* #cv-form{
     display: none;
 } */
+#cv-template{
+    display: none;
+}
 
 .my-dp{
     /* border: 1px solid black; */
@@ -13,7 +16,13 @@
 }
 
 .first-col-temp{
-    background-color: rgb(230, 222, 222);
+    background-color: #002E58;
     /* color: white; */
     font-weight: 600;
 }
+
+@media print {
+    #printButton {
+      display: none;
+    }
+  }

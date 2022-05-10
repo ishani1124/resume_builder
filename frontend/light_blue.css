@@ -1,0 +1,31 @@
+.font-form{
+    font-size: 20px;
+}
+
+/* #cv-form{
+    display: none;
+} */
+#cv-template{
+    display: none;
+}
+.my-dp{
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    width: 150px;
+}
+
+.first-col-temp{
+    background-color: #8cb7e2;
+    /* color: white; */
+    font-weight: 600;
+}
+
+.light-blue-link-color {
+    color: black;
+}
+
+@media print {
+    #printButton {
+      display: none;
+    }
+  }

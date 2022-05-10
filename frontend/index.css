@@ -1,0 +1,267 @@
+
+
+
+/* ******************************************* Nav Bar ******************************** */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+h2,
+h3,
+a {
+	color: #8e17bd;
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+.logo {
+	margin: 0;
+	font-size: 1.45em;
+	color: #8e17bd;	
+}
+
+.main-nav {
+	margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	color: #8e17bd;
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: #8e17bd;
+}
+
+
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border: 1px solid #a2a2a2;
+	background-color: #f4f4f4;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.nav-link{
+	text-decoration: none;
+	color: #8e17bd;;
+}
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+    	.header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	}
+
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}
+
+/* ******************************************* INTRODUCTION ************************************** */
+
+.text-color{
+    color: #8e17bd;
+}
+.img-size{
+    max-width: 40%;
+    max-height: 100.4%;
+}
+
+.create-btn{
+	/* background-color: transparent; */
+	color: #FFFFFF;
+	/* background-color: 	#81487f; */
+    background-color: 	#AB46D2;
+    
+  border-radius: 12px;
+  padding: 17px;
+  /* border: 2px solid black; */
+}
+
+.create-btn:hover {
+    background-color: rgb(224, 208, 208); /* Green */
+    color: #842ba7;
+     
+  }
+.btn-font{
+    font-size: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container
+{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.intro-h1{
+    font-size: 43px;
+    padding-bottom: 20px;
+}
+
+.intro-p{
+    font-size: 33px;
+}
+
+/* ******************************************* ABOUT SECTION ******************************** */
+
+.about-section
+{
+     padding-top: 100px;
+     padding-bottom: 100px;
+    background-color: #AB46D2;
+}
+
+.about-h2{
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.about-p{
+    font-size: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+.create-about-btn{
+	/* background-color: transparent; */
+	color: #55196d;
+	/* background-color: 	#81487f; */
+    background-color: 	white;
+    
+  border-radius: 15px;
+  padding: 17px;
+  /* border: 2px solid black; */
+}
+
+.create-about-btn:hover {
+    color: rgb(224, 208, 208); /* Green */
+    background-color: #842ba7;
+     
+  }
+.btn-about-font{
+    font-size: 20px;
+}
+
+
+
+/* ******************************************* TEMPLATE ******************************** */
+
+.template-p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+/* Template hover */
+
+.image-con {
+	position: relative;
+	width: 50%;
+  }
+/*   
+  .template-hover {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+  }
+   */
+  .middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+  }
+  
+  .image-con:hover .image {
+	opacity: 0.3;
+  }
+  
+  .image-con:hover .middle {
+	opacity: 1;
+  }
+  
+  .text {
+	background-color: #8e17bd;
+	color: white;
+	font-size: 16px;
+	border-radius: 15px;
+	padding: 16px 32px;
+  }
+
+
+  .footer-deco{
+    background-color: #842ba7;
+	margin-top: 60px;
+  }
+
+  .footer-p-deco {
+	  padding: 50px;
+  }
