@@ -1,7 +1,9 @@
 .font-form{
     font-size: 20px;
 }
-
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
 /* #cv-form{
     display: none;
 } */
