@@ -30,3 +30,5 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+heroku_creds.txt

@@ -3,6 +3,8 @@ import Cors from "cors";
 import initMiddleware from "@/lib/init-middleware";
 import prisma from "@/lib/prisma";
 
+// import db from "@/database";
+
 const cors = initMiddleware(
   // You can read more about the available options here: https://github.com/expressjs/cors#configuration-options
   Cors({
