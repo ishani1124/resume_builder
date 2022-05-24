@@ -35,8 +35,8 @@ export default async (req, res) => {
       },
     });
 
-    res.status(201).json({ message: "User Created", data: createdUser });
-    return NextResponse.redirect("http://127.0.0.1:5501/frontend/sign_in.html");
+    return res.status(201).json({ message: "User Created", data: createdUser });
+    // return NextResponse.redirect("http://127.0.0.1:5501/frontend/sign_in.html");
   } else {
     return res.status(200).json({ message: "User Already Exists......" });
   }
