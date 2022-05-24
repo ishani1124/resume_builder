@@ -1,5 +1,4 @@
 import Cors from "cors";
-import { NextResponse, NextRequest } from "next/server";
 
 import initMiddleware from "@/lib/init-middleware";
 import prisma from "@/lib/prisma";
