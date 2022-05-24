@@ -1,4 +1,5 @@
 import Cors from "cors";
+import { NextResponse, NextRequest } from "next/server";
 
 import initMiddleware from "@/lib/init-middleware";
 import prisma from "@/lib/prisma";
@@ -22,6 +23,8 @@ export default async (req, res) => {
 
   const { email, password } = req.body;
 
+  console.log(`${email} === ${password}`);
+
   let foundUser = await prisma.users.findFirst({
     where: {
       email,
@@ -30,8 +33,12 @@ export default async (req, res) => {
   });
 
   if (foundUser === null) {
-    return res.status(201).json({ message: "User Not found..." });
+    return res.status(401).json({ message: "Un-Authorized..." });
   } else {
-    return res.status(200).json({ message: "Authenticated..." });
+    return res
+      .status(200)
+      .redirect("http://127.0.0.1:5501/frontend/index.html");
+    // return NextResponse.redirect("http://127.0.0.1:5501/frontend/index.html");
+    // return res.status(200).json({ message: "Authenticated..." });
   }
 };
