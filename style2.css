@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+/* body{
+    background-image: url('o.png');
+} */
+
+.font-form{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+ .weField{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: justify;
+    width: 400px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+.sField{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: justify;
+    width: 400px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+
+/* #cv-form{
+    display: none;
+}*/
+/* #cv-template{
+    display: none;
+}   */
+.my-dp{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 150px;
+}
+
+.first-col-temp{
+    background-color: rgb(230, 222, 222);
+     color: white;
+    font-weight: 600;
+}
+.container h1{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
+.container p{
+    font-weight: bold;
+font-size: 17px;
+text-align: center;
+margin-top: 10px;
+color:linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.print-area{
+    width: 100%;
+    margin: auto auto;
+   
+}
+.print-area .header{
+    width: 100%;
+    height: 150px;
+    background-color:rgb(31, 34, 43) ;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.header img{
+    width: 175px;
+    height:175px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left:65px;
+    border: 5px solid white;
+      box-shadow: 3px 3px 10px gray;
+      cursor:pointer;
+      user-select:none;
+      transition: .5s;
+      filter: grayscale(100%);
+      
+
+
+}
+.header img:hover{
+    filter:grayscale(0%);
+    transform:scale(1.05);
+    box-shadow: 3px 3px 10px rgba(0,0,0,.5);
+    
+}
+.header-text{
+    color:white;
+    width:60%;
+    margin-left: auto;
+}
+.header-text h1{
+font-size: 80px;
+font-weight: normal;
+
+}
+.header-text p{
+    font-size: 20px;
+    color: lightgray;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-area{
+    width: 30%;
+    background-color: rgb(236,236,236);
+    text-align: center;
+    padding: 0 30px;
+    padding-bottom: 20px;
+}
+.left-area .contact{
+    margin-top: 110px;
+}
+.contact h4{
+    font-size: 30px;
+    font-weight: normal;
+    margin: 10px 0;
+}
+.contact h5{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.contact p{
+    font-size: 17px;
+}
+.follow h1{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: normal;
+}
+.follow h4{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.follow p{
+    font-size: 15px;
+    color: gray;
+
+}
+
+
+
+.right-area{
+    width: 70%;
+    padding: 50px;
+}
+.right-area h1{
+    font-size: 35px;
+    font-weight: normal;
+}
+.right-area h1 span{
+margin-right: 30px;
+font-size: 50px;
+color: lightgray;
+}
+.right-area p{
+    padding-left: 70px;
+    text-align: justify;
+    word-break: break-all;
+    font-size: 17px;
+    color: gray;
+    margin-top: 10px;
+}
+.work-group{
+    margin:20px 0 ;
+}
+.work .work-group{
+    position: relative;
+
+}
+.work-group h3{
+    font-size: 22px;
+    font-weight: normal;
+    padding-left: 70px;
+}
+.work-group h4{
+    font-size: 18px;
+    padding-left: 70px;
+    font-weight: normal;
+    color: gray;
+}
+.work-group span{
+    position: absolute;
+    top: 10px;
+    right:0;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.education{
+    margin-top: 30px;
+}
+.edu-group{
+    position: relative;
+    margin: 10px 0;
+}
+.edu-group h4{
+    padding-left: 80px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.edu-group span{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+.edu-group p{
+    padding-left:80px ;
+}
+.first-col-temp{
+    font-size: 25px;
+    padding: 10px 20px ;
+    margin: 50px 0px 50px 140px;
+    background-color: rgb(142, 135, 135);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    cursor: pointer;
+    transition: .5s;
+}
+.first-col-temp:hover{
+    background-color: black;
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+}
+@media print{
+    body *{
+        visibility: hidden;
+    }
+    .print-area *{
+        visibility: visible;
+    }
+}
