@@ -1,15 +1,16 @@
-# Resume Builder
+# Resume Builder - Made by [Ishani.S](https://github.com/ishani1124) and [Madhumitha.V](https://github.com/Madhuvasanth1606)
 
 [Frontend - Live Link](https://ishani1124.github.io/resume_builder/sign_in.html)  <br>
 [Backend - Live Link](https://resume-builderrr.netlify.app)
 
 
-[PPT](https://github.com/ishani1124/resume_builder/blob/Frontend/Resume%20Builder%20(2).pptx)
+[Project PPT](https://github.com/ishani1124/resume_builder/blob/Frontend/Resume%20Builder%20(2).pptx)
+
 
 ## INTRODUCTION
-The primary goal of the  program that makes the process of making a Resume for individuals more easier. 
-The method is simple to use and eliminates the need to consider and construct an appropriate resume based on qualifications.
-The system was created to make it simple to create a professional-looking resume. 
+- The primary goal of the  website is to makes the process of building a Resume for individuals more easier. <br>
+- The method is simple to use and eliminates the need to consider and construct an appropriate resume based on qualifications. <br>
+- The system was created to make it simple to create a professional-looking resume. 
 
 <hr>
 
