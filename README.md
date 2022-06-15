@@ -4,7 +4,7 @@
 [Backend - Live Link](https://resume-builderrr.netlify.app)
 
 
-[Project PPT](https://github.com/ishani1124/resume_builder/blob/Frontend/Resume%20Builder%20(2).pptx)
+<!-- [Project PPT](https://github.com/ishani1124/resume_builder/blob/Frontend/Resume%20Builder%20(2).pptx) -->
 
 
 ## INTRODUCTION
