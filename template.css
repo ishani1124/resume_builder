@@ -3,7 +3,78 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+
 }
+/* body{
+    background-image: url('o.png');
+} */
+
+.font-form{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+ .weField{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: justify;
+    width: 400px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+.sField{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: justify;
+    width: 400px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+
+ /* #cv-form{
+    display: none;
+} */
+/* #cv-template{
+    display: none;
+}   */
+.my-dp{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 150px;
+}
+
+.first-col-temp{
+    background-color: rgb(230, 222, 222);
+     color: white;
+    font-weight: 600;
+}
+.container h1{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
+.container p{
+    font-weight: bold;
+font-size: 17px;
+text-align: center;
+margin-top: 10px;
+color:linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 .print-area{
@@ -11,7 +82,6 @@
     margin: auto auto;
    
 }
-
 .print-area .header{
     width: 100%;
     height: 150px;
@@ -171,7 +241,7 @@ color: lightgray;
 .edu-group p{
     padding-left:80px ;
 }
-button{
+.first-col-temp{
     font-size: 25px;
     padding: 10px 20px ;
     margin: 50px 0px 50px 140px;
@@ -184,7 +254,7 @@ button{
     cursor: pointer;
     transition: .5s;
 }
-button:hover{
+.first-col-temp:hover{
     background-color: black;
     box-shadow: 0 0 20px rgba(0,0,0,.5);
 }
@@ -194,5 +264,9 @@ button:hover{
     }
     .print-area *{
         visibility: visible;
+    }
+
+    #im{
+        display: none;
     }
 }
